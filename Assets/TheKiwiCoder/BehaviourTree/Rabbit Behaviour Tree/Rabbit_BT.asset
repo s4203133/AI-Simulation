@@ -1,0 +1,4128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9214697650168738845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 252bfd90b3624d74e8499b20bd400fcd
+  position: {x: 2781.6, y: 2129.1199}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8920563554934294362}
+  actionName: Searching For Mates
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &-9165998830354054859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6eb44c8de825d5a41b68dc8b86256b14
+  position: {x: 1687.2001, y: 1590.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3136900702660921198}
+  children:
+  - {fileID: 6771351751632236869}
+  - {fileID: -8791295736760431327}
+  - {fileID: 8527323073964286469}
+  - {fileID: 2840178101109922839}
+  - {fileID: -7522487377617540410}
+  - {fileID: 795594451887897243}
+--- !u!114 &-9155519224224974206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67176238c6576740870ee61806cc87c, type: 3}
+  m_Name: AttackFox
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0f1995f8b9aaff2479eeaaa787d6e5ca
+  position: {x: -4095.3267, y: 1736.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 2433293157838727821}
+  actionName: Attacking Fox
+  damage: 150
+  animationDelay: 0.225
+  attackParticles: {fileID: 7983783400977203433, guid: aed910e2c931b4e4e9c7f9c77b8caa80, type: 3}
+--- !u!114 &-9149499633711526622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3c51632b6770fa647bbc6b5c8335c29b
+  position: {x: 4346.4, y: 2371.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1593348835266628330}
+  actionName: Waiting
+  duration: 1
+--- !u!114 &-9058329265184386305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3a3eb5b4dde4248b5a7de4a1cd5268, type: 3}
+  m_Name: IsTired
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 736529f3495ef4c4a8756898d933c1cd
+  position: {x: -1678.3998, y: 860.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6785761086350343114}
+  actionName: Feels Tired
+--- !u!114 &-8906817197243664505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c821b36c09bbc74faff6e05c4e869f8, type: 3}
+  m_Name: CheckScentTrailType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6534ae274d033534c8b33fce3957058c
+  position: {x: -519.9999, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 3767434615937660475}
+  actionName: Smelling For Fox Scent
+  scentType: 4
+--- !u!114 &-8798185977780546303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8cd5533337c8d469507ad76075d0f9, type: 3}
+  m_Name: RandomFailure
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a853f8766bf0f624489c7079309e5da6
+  position: {x: 160.80005, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8137063138978522133}
+  actionName: Following Rabbit Scent Trail
+  chanceOfFailure: 1
+--- !u!114 &-8791295736760431327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41acb5ed0498547b6f7bfa506f70d7, type: 3}
+  m_Name: CheckSoundType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d7fc61136f787d148b55fbfe1e36d424
+  position: {x: 1464.8002, y: 1743.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  actionName: Listen For Rabbit Sounds
+  soundType: 4
+--- !u!114 &-8781110546940618863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfdcd0ca0ca8ae43ad1fb0e15d3cfa9, type: 3}
+  m_Name: EvadeThreats
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1adf8289696282243b48d57d77aaa15f
+  position: {x: -4723.3267, y: 1490.4}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -6187694408679326661}
+  actionName: Fleeing From Foxes
+  obstacleDetectionRadius: 2
+  obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 2048
+  walkableLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  hidingZoneLayers:
+    serializedVersion: 2
+    m_Bits: 4096
+--- !u!114 &-8571536108221449702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 49412f340b73065448e6eb02dfd7c9dc
+  position: {x: -4612.127, y: 1100.0001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8102205168665079009}
+  children:
+  - {fileID: -6187694408679326661}
+  - {fileID: 8579775665014937713}
+--- !u!114 &-8513185744436634484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: dc894543d2f74494494ed388bf6db26d
+  position: {x: -3457.6, y: 1796.7446}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3223100398416832149}
+  actionName: Listening For Fox Sounds
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &-8349116416395804376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6695c9be064ecd24ba65484fda51e806
+  position: {x: -1128.0002, y: 1351.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 923611151636280921}
+  actionName: Waiting
+  duration: 0.5
+--- !u!114 &-8217422061792959419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22bd4ed89e8798458ce84df6872f994, type: 3}
+  m_Name: ClosestTargetInMemory
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 22af85745a9ac4b4e8a9b1d3bed29c38
+  position: {x: 481.60004, y: 1743.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Looking For Food
+  objectType: 2
+--- !u!114 &-8137063138978522133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ccde80bafadb7634cb387bfa5a6876e8
+  position: {x: 389.59998, y: 1020}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6861180021708770474}
+  children:
+  - {fileID: -8798185977780546303}
+  - {fileID: 427991905656543944}
+  - {fileID: 265625931882166644}
+  - {fileID: -137203722991752310}
+--- !u!114 &-8102205168665079009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: be5c1c8a2b761c14aa1c49b99d52fe31
+  position: {x: -4270.527, y: 900.00006}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3920379798962549372}
+  children:
+  - {fileID: -8571536108221449702}
+  - {fileID: -1183158378486064883}
+--- !u!114 &-8100894529577154403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b1c4eace1395ef64aa2d7b5a38b09ce8
+  position: {x: 2215.2, y: 2096.4}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 795594451887897243}
+  actionName: Eating
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 4
+  volume: 2
+--- !u!114 &-8086108164168832158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4b94140abcce3af48938bd81cd3f5863
+  position: {x: -2802.0603, y: 1634.0281}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -5255341240424925487}
+  children:
+  - {fileID: 97229556783229314}
+  - {fileID: -2050375174481900128}
+  - {fileID: 5463830588994624490}
+  - {fileID: 143663575508728661}
+  - {fileID: -4071414580158168374}
+--- !u!114 &-7790901271056572584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0e199530b50a0aa46a4814f677a8b981
+  position: {x: 808.8001, y: 1741.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Moving Towards Food
+  speed: 5
+  famishedSpeed: 2.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &-7522487377617540410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 18c9fc62d59833b40a592c87c5e764f7
+  position: {x: 1914.4, y: 1743.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  actionName: Moving Towards Rabbit Sounds
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &-7398466792607170934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f9b075e6fc27347a865fdbf638d699, type: 3}
+  m_Name: RanOutOfStamina
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9f8d5cbde825c1047a3b2c0b0c60b5cc
+  position: {x: -4009.727, y: 1215.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -1183158378486064883}
+  actionName: Out Of Stamina
+--- !u!114 &-7260508958373707199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8bdf66f635ffd498275f3ad85a6bae, type: 3}
+  m_Name: Reproduce
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e7ce6b8682daf9941b7218b03e050d1c
+  position: {x: 3082.4001, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8920563554934294362}
+  actionName: Reproducing
+  duration: 2
+--- !u!114 &-7199793011285066007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc02fbbc0185f8f40ba2275f18b0d476, type: 3}
+  m_Name: CanSeeTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 79523d13af70a3547a3c1897a9d1041e
+  position: {x: 3719.2002, y: 2371.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1593348835266628330}
+  actionName: Searching For Mate
+  targetObjects: 1
+--- !u!114 &-7025154858303223353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: dae7e73459c061b459a2303299c2be68
+  position: {x: -3307.2, y: 1796}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3223100398416832149}
+  actionName: Moving Away From Fox Sounds
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &-6923511504879478792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22bd4ed89e8798458ce84df6872f994, type: 3}
+  m_Name: ClosestTargetInMemory
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a44da815b6786db4482c7ef38f865674
+  position: {x: 1887.2002, y: 2097.92}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 795594451887897243}
+  actionName: Looking For Food
+  objectType: 2
+--- !u!114 &-6875610586361450986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8bdf66f635ffd498275f3ad85a6bae, type: 3}
+  m_Name: Reproduce
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 779b193c4a7140f44a59fd5344809e9b
+  position: {x: 4328, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Reproducing
+  duration: 2
+--- !u!114 &-6599740243918655895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e5c2646d65744f941bf732cf76e66eba
+  position: {x: -1941.0132, y: 1352}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Moving Away From Fox Sounds
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &-6383483098321720902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0c43bf76440bcc04590ac8530c1401bb
+  position: {x: 4327.9995, y: 725.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4723567522821905431}
+  actionName: Idling
+  duration: 2
+--- !u!114 &-6190650968491045070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41acb5ed0498547b6f7bfa506f70d7, type: 3}
+  m_Name: CheckSoundType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0f237422158ff1449b36a6c0caa432c2
+  position: {x: -2257.0132, y: 1351.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Listening For Nearby Foxes
+  soundType: 10
+--- !u!114 &-6187694408679326661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: eb21d77fa381b3941b294e093d4a8405
+  position: {x: -4872.927, y: 1264}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8571536108221449702}
+  children:
+  - {fileID: 6826179649316808983}
+  - {fileID: -4347876746488030554}
+  - {fileID: -8781110546940618863}
+--- !u!114 &-5790638848194029032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 98c491e7630c1a94baa22cf5fdef59f2
+  position: {x: -3301.2173, y: 900}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3920379798962549372}
+  children:
+  - {fileID: 3542255093206852638}
+  - {fileID: -5255341240424925487}
+--- !u!114 &-5369182770659285991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7c01f07fb8bb0b24c85ba55ab8f4b80d
+  position: {x: 2064.0002, y: 2097.92}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 795594451887897243}
+  actionName: Moving Towards Food
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &-5267300851124707535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bf32355e046fbe8439701b16cd482da8
+  position: {x: 4782.3994, y: 725.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4723567522821905431}
+  actionName: Wandering
+  speed: 5
+  famishedSpeed: 2.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &-5255341240424925487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fab831782ac050c40a44aa4aa5617dc4
+  position: {x: -3150.8174, y: 1192.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -5790638848194029032}
+  children:
+  - {fileID: -3223100398416832149}
+  - {fileID: -8086108164168832158}
+--- !u!114 &-4793202321313400446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22bd4ed89e8798458ce84df6872f994, type: 3}
+  m_Name: ClosestTargetInMemory
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 20ab214cc4963da41933244563fcc171
+  position: {x: 3869.6003, y: 2371.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1593348835266628330}
+  actionName: Searching For Mate
+  objectType: 1
+--- !u!114 &-4723567522821905431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3b14b8acea7e90f449b997d16806b81b
+  position: {x: 4553.5996, y: 596.4001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3935347339971184655}
+  children:
+  - {fileID: -6383483098321720902}
+  - {fileID: 9142557858991041903}
+  - {fileID: 7055456274819282531}
+  - {fileID: -5267300851124707535}
+--- !u!114 &-4687842284019006833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 405f54de62256c54ab4526e8da86dbcb
+  position: {x: 958.4, y: 1741.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Eating
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 4
+  volume: 0
+--- !u!114 &-4493539631558232283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a375493b9668394d99ae800fca87b34, type: 3}
+  m_Name: WanderForTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 080a1c73e92f5564f955997f3e4f0376
+  position: {x: 3877.6003, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Wander While Looking For Rabbit
+  objectType: 1
+  speed: 5
+  famishedSpeed: 2.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 1
+--- !u!114 &-4347876746488030554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 778e69af9ef56d44e921746c72c6b52e
+  position: {x: -4873.727, y: 1491.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -6187694408679326661}
+  actionName: Feels Threatened
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &-4261400570430592925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 425a058ed842901428e11e4dbe16088f
+  position: {x: 3232.8, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8920563554934294362}
+  actionName: Waiting
+  duration: 1
+--- !u!114 &-4071414580158168374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a8b34aadd2563a74a9f67f8257b39f17
+  position: {x: -2488, y: 1794.4}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8086108164168832158}
+  actionName: Moving Towards Rabbit Sounds
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 3
+--- !u!114 &-4045406984981708317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ef31a15cb10851b41a54d1d67c89b544
+  position: {x: 1274.4, y: 1115.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3809609978274210792}
+  children:
+  - {fileID: 7939182895820036698}
+  - {fileID: -3136900702660921198}
+--- !u!114 &-3935347339971184655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d30d9a182095a244d8c3fe9e75f7e581
+  position: {x: 0, y: 138.42862}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6629153806224334586}
+  children:
+  - {fileID: -3920379798962549372}
+  - {fileID: 6785761086350343114}
+  - {fileID: 6861180021708770474}
+  - {fileID: -3809609978274210792}
+  - {fileID: -4723567522821905431}
+--- !u!114 &-3920379798962549372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3835fe89b145acf45b236e9e035a0d64
+  position: {x: -3748.92, y: 600.0001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3935347339971184655}
+  children:
+  - {fileID: -8102205168665079009}
+  - {fileID: -5790638848194029032}
+--- !u!114 &-3809609978274210792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6344ea02a32095f40b6d40f121006573
+  position: {x: 3429.6, y: 641.11975}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3935347339971184655}
+  children:
+  - {fileID: -4045406984981708317}
+  - {fileID: 7586900404525314533}
+--- !u!114 &-3429166818682482504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4dc1faa68bcb41b83abd0d7fbabc6, type: 3}
+  m_Name: MoveAwayFromSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 84dcf1bb31a7da045878ba0cb0d5a91a
+  position: {x: -3623.2, y: 1795.9446}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3223100398416832149}
+  actionName: Listening For Fox Sounds
+  soundType: 10
+  moveSpeed: 5
+  searchRadius: 5
+  walkableGround:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &-3306305698972230124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9d6f9178b3fd1c7429a0b459a4d7f277
+  position: {x: 3429.6, y: 1115.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 7586900404525314533}
+  actionName: Wants To Reproduce
+  duration: 1
+--- !u!114 &-3223100398416832149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 734bd9e5fae5dbb40bd618fd672f16a9
+  position: {x: -3526.4001, y: 1627.1447}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -5255341240424925487}
+  children:
+  - {fileID: 737958953943955801}
+  - {fileID: -3429166818682482504}
+  - {fileID: -8513185744436634484}
+  - {fileID: -7025154858303223353}
+--- !u!114 &-3189945628060481131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da47f403249430640a5d5af403fcccfa, type: 3}
+  m_Name: WantsToReproduce
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bf4db419ca8b5c94d9589292dd22e2ce
+  position: {x: 3279.2002, y: 1115.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 7586900404525314533}
+  actionName: Wants To Reproduce
+--- !u!114 &-3136900702660921198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1bcae89035b43f94da4d585afdd13855
+  position: {x: 1274.4, y: 1319.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4045406984981708317}
+  children:
+  - {fileID: -172682917383960589}
+  - {fileID: -9165998830354054859}
+--- !u!114 &-3006715568939665951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c80c1197366288049ad05acd65740aa4
+  position: {x: -1944.2133, y: 1096}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 9015713534650589328}
+  children:
+  - {fileID: 5866893296974367531}
+  - {fileID: -6190650968491045070}
+  - {fileID: 9103500092361271807}
+  - {fileID: -6599740243918655895}
+  - {fileID: 1785237012694586293}
+  - {fileID: 5959488564068620203}
+  - {fileID: 770778930400435155}
+--- !u!114 &-2976781578812829626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e658b1bd308bc5c429f5a9b404a04943, type: 3}
+  m_Name: Inverter
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: aeccab1554783094b9f4973aae3bbc06
+  position: {x: 2680.0002, y: 1623.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -2976781578812829626}
+  child: {fileID: -848546671067249849}
+--- !u!114 &-2777441192433969452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 33fd894bba44f464580ba9f268ef53d7
+  position: {x: 3580.0005, y: 1115.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 7586900404525314533}
+  children:
+  - {fileID: -1506354711192171592}
+  - {fileID: 6586342607740802894}
+--- !u!114 &-2578802947298878400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c3db0393d827749ba5dfc8d6e1a035, type: 3}
+  m_Name: StayHiding
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fdb0850b59933334c83646e1937e67c4
+  position: {x: -4441.727, y: 1738.4001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1835285062983284794}
+  actionName: Hiding
+--- !u!114 &-2559628783103513650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e7660e5759ce4e8438fc707bc55aca85
+  position: {x: 4046.4004, y: 2371.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1593348835266628330}
+  actionName: Moving Towards Rabbit
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 3
+--- !u!114 &-2051019516678672783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a39d07423a4fd7e4098a178569e9f4ec
+  position: {x: 2932.0002, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8920563554934294362}
+  actionName: Moving To Rabbits Last Known Position
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 3
+--- !u!114 &-2050375174481900128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41acb5ed0498547b6f7bfa506f70d7, type: 3}
+  m_Name: CheckSoundType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1d4f37a1f80ce9044a0ba782b936f3fc
+  position: {x: -2965.6, y: 1793.6}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8086108164168832158}
+  actionName: Listening For Rabbit Sounds
+  soundType: 5
+--- !u!114 &-1773786281747017948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0812ac5d7280c0246914f1b598d892f5
+  position: {x: -57.599976, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 3767434615937660475}
+  actionName: Waiting
+  duration: 1
+--- !u!114 &-1522045010138278520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 098679aaeb1875444b352356c490711d
+  position: {x: 3304.0002, y: 1628.3198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -1506354711192171592}
+  children:
+  - {fileID: 8920563554934294362}
+  - {fileID: 539835470640788255}
+--- !u!114 &-1506354711192171592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: efd3ce687acabc944ae0a12da63ae58c
+  position: {x: 2979.2002, y: 1328.3198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -2777441192433969452}
+  children:
+  - {fileID: -2976781578812829626}
+  - {fileID: -1522045010138278520}
+--- !u!114 &-1308554633393898249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62e10bd44df5804e9603336d544b1e0, type: 3}
+  m_Name: EatFood
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c5ab7e946a5dff94a8a52c3fd36ae68f
+  position: {x: 2364.8, y: 2097.1199}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 795594451887897243}
+  actionName: Eating
+  eatingParticlePrefab: {fileID: 5870310450217338775, guid: cc9c642a203f94f4b89c1b4ae8657023, type: 3}
+  disapearPrefab: {fileID: 4148061759017331445, guid: 697710540845bdb45b204b093f1920fd, type: 3}
+  duration: 0
+--- !u!114 &-1183158378486064883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 766c663cdab690f48b550f5566af46ce
+  position: {x: -3945.7275, y: 1071.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8102205168665079009}
+  children:
+  - {fileID: -7398466792607170934}
+  - {fileID: 3544965721437088462}
+--- !u!114 &-848546671067249849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc02fbbc0185f8f40ba2275f18b0d476, type: 3}
+  m_Name: CanSeeTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b0373d001bf4bd747830304ca0cee295
+  position: {x: 2680.0002, y: 1759.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -2976781578812829626}
+  actionName: Searching For Mates
+  targetObjects: 1
+--- !u!114 &-172682917383960589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d7bd96fae968de445a3051c7d0238105
+  position: {x: 733.6, y: 1590.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3136900702660921198}
+  children:
+  - {fileID: 4883046339584686685}
+  - {fileID: -8217422061792959419}
+  - {fileID: 6530131062375863267}
+  - {fileID: -7790901271056572584}
+  - {fileID: -4687842284019006833}
+  - {fileID: 2051733680391592881}
+--- !u!114 &-137203722991752310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068c3f3afa12a6d4dbf299bd7901e765, type: 3}
+  m_Name: FollowScentTrail
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7545a3864feddfa4b9efa4427739a04a
+  position: {x: 619.2001, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8137063138978522133}
+  actionName: Following Rabbit Scent Trail
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: Rabbit_BT
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 6629153806224334586}
+  treeState: 0
+  nodes:
+  - {fileID: 6629153806224334586}
+  - {fileID: -4723567522821905431}
+  - {fileID: -6383483098321720902}
+  - {fileID: 7055456274819282531}
+  - {fileID: -5267300851124707535}
+  - {fileID: -3935347339971184655}
+  - {fileID: -7790901271056572584}
+  - {fileID: 2051733680391592881}
+  - {fileID: 4883046339584686685}
+  - {fileID: 3542255093206852638}
+  - {fileID: -5790638848194029032}
+  - {fileID: -5255341240424925487}
+  - {fileID: 737958953943955801}
+  - {fileID: -3223100398416832149}
+  - {fileID: -3429166818682482504}
+  - {fileID: -3809609978274210792}
+  - {fileID: -4045406984981708317}
+  - {fileID: -8781110546940618863}
+  - {fileID: 6826179649316808983}
+  - {fileID: 1888041042707310285}
+  - {fileID: -8349116416395804376}
+  - {fileID: -8217422061792959419}
+  - {fileID: -3920379798962549372}
+  - {fileID: 7586900404525314533}
+  - {fileID: -3306305698972230124}
+  - {fileID: 4702597235650893165}
+  - {fileID: -4493539631558232283}
+  - {fileID: 4684593224853784835}
+  - {fileID: 1617551126887753654}
+  - {fileID: 6586342607740802894}
+  - {fileID: -6875610586361450986}
+  - {fileID: 7939182895820036698}
+  - {fileID: -9058329265184386305}
+  - {fileID: -3189945628060481131}
+  - {fileID: 4357343428337588521}
+  - {fileID: -2578802947298878400}
+  - {fileID: -7025154858303223353}
+  - {fileID: 9142557858991041903}
+  - {fileID: -3136900702660921198}
+  - {fileID: -172682917383960589}
+  - {fileID: -9165998830354054859}
+  - {fileID: -8791295736760431327}
+  - {fileID: 8527323073964286469}
+  - {fileID: 2840178101109922839}
+  - {fileID: 795594451887897243}
+  - {fileID: 6352540280826976169}
+  - {fileID: -6923511504879478792}
+  - {fileID: -5369182770659285991}
+  - {fileID: -1308554633393898249}
+  - {fileID: -6187694408679326661}
+  - {fileID: -2777441192433969452}
+  - {fileID: -1506354711192171592}
+  - {fileID: -2976781578812829626}
+  - {fileID: -848546671067249849}
+  - {fileID: 6771351751632236869}
+  - {fileID: 8353273721985350056}
+  - {fileID: 4751897489887947517}
+  - {fileID: 9115537383010244506}
+  - {fileID: 1593348835266628330}
+  - {fileID: -7199793011285066007}
+  - {fileID: -4793202321313400446}
+  - {fileID: -2559628783103513650}
+  - {fileID: 4655378903674177027}
+  - {fileID: -9149499633711526622}
+  - {fileID: 9015713534650589328}
+  - {fileID: -3006715568939665951}
+  - {fileID: 923611151636280921}
+  - {fileID: 5080967530066840042}
+  - {fileID: 959991221442661425}
+  - {fileID: 5866893296974367531}
+  - {fileID: -6190650968491045070}
+  - {fileID: 9103500092361271807}
+  - {fileID: 1785237012694586293}
+  - {fileID: 5959488564068620203}
+  - {fileID: 770778930400435155}
+  - {fileID: -2050375174481900128}
+  - {fileID: 5463830588994624490}
+  - {fileID: -4071414580158168374}
+  - {fileID: 6861180021708770474}
+  - {fileID: 3767434615937660475}
+  - {fileID: 1530978912012113065}
+  - {fileID: -8906817197243664505}
+  - {fileID: 6579792638226781231}
+  - {fileID: -1522045010138278520}
+  - {fileID: 539835470640788255}
+  - {fileID: 8920563554934294362}
+  - {fileID: 2491936939425334173}
+  - {fileID: -2051019516678672783}
+  - {fileID: -7260508958373707199}
+  - {fileID: -4261400570430592925}
+  - {fileID: -4347876746488030554}
+  - {fileID: -8513185744436634484}
+  - {fileID: 143663575508728661}
+  - {fileID: 6530131062375863267}
+  - {fileID: -4687842284019006833}
+  - {fileID: -7522487377617540410}
+  - {fileID: -8100894529577154403}
+  - {fileID: -9214697650168738845}
+  - {fileID: 3894265653439013737}
+  - {fileID: 4295926468785379716}
+  - {fileID: -6599740243918655895}
+  - {fileID: 1761464481740165529}
+  - {fileID: -1773786281747017948}
+  - {fileID: -8102205168665079009}
+  - {fileID: 2433293157838727821}
+  - {fileID: 6597703353896374380}
+  - {fileID: -9155519224224974206}
+  - {fileID: -8571536108221449702}
+  - {fileID: 8579775665014937713}
+  - {fileID: 1835285062983284794}
+  - {fileID: -1183158378486064883}
+  - {fileID: 3544965721437088462}
+  - {fileID: -7398466792607170934}
+  - {fileID: 427991905656543944}
+  - {fileID: 265625931882166644}
+  - {fileID: -137203722991752310}
+  - {fileID: 97229556783229314}
+  - {fileID: -8086108164168832158}
+  - {fileID: -8137063138978522133}
+  - {fileID: -8798185977780546303}
+  - {fileID: 8015334068935041010}
+  - {fileID: 6785761086350343114}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+--- !u!114 &97229556783229314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8cd5533337c8d469507ad76075d0f9, type: 3}
+  m_Name: RandomFailure
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fc9af7a5bf4b35444b42a72948ef0cc2
+  position: {x: -3115.9995, y: 1795.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8086108164168832158}
+  actionName: Listening For Rabbit Sounds
+  chanceOfFailure: 0.5
+--- !u!114 &143663575508728661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: da082a4e08219634c993132e3c460e61
+  position: {x: -2638.4, y: 1794.4}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8086108164168832158}
+  actionName: Listening For Rabbit Sounds
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &265625931882166644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c821b36c09bbc74faff6e05c4e869f8, type: 3}
+  m_Name: CheckScentTrailType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5197f6047cde40a4ea345ad16c576371
+  position: {x: 460.80017, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8137063138978522133}
+  actionName: Following Rabbit Scent Trail
+  scentType: 1
+--- !u!114 &427991905656543944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0cc057a53d9948bd2b40609d6a792, type: 3}
+  m_Name: HasCaughtScent
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f3b33f911cfa3df4c9125186ad0cc0f7
+  position: {x: 310.40002, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8137063138978522133}
+  actionName: Following Rabbit Scent Trail
+--- !u!114 &539835470640788255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fa71ac365848c01488f9b4720f7b464e
+  position: {x: 3672.0002, y: 1913.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -1522045010138278520}
+  children:
+  - {fileID: 8353273721985350056}
+  - {fileID: 4751897489887947517}
+  - {fileID: 9115537383010244506}
+  - {fileID: 3894265653439013737}
+  - {fileID: 1593348835266628330}
+--- !u!114 &737958953943955801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41acb5ed0498547b6f7bfa506f70d7, type: 3}
+  m_Name: CheckSoundType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 70c1c6ba3253e654a862fa7a4d403473
+  position: {x: -3772.8, y: 1795.9446}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3223100398416832149}
+  actionName: Listening For Fox Sounds
+  soundType: 10
+--- !u!114 &770778930400435155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12084133a65ae444985fdac62c476c23, type: 3}
+  m_Name: Sleep
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 49f6a304647596c44b849d777c9cd8c8
+  position: {x: -1489.8132, y: 1350.4}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Sleeping
+  restAmount: 20
+  sleepParticlesPrefab: {fileID: 3882481950571142260, guid: 18ea67fdfc803b54f9b4b874523f9a77, type: 3}
+--- !u!114 &795594451887897243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e0160fd4dd427d94e94d99ffcbff444e
+  position: {x: 2064.8, y: 1743.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  children:
+  - {fileID: 6352540280826976169}
+  - {fileID: -6923511504879478792}
+  - {fileID: -5369182770659285991}
+  - {fileID: -8100894529577154403}
+  - {fileID: -1308554633393898249}
+--- !u!114 &923611151636280921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 49bac940b4555174cacd15a4c2a120de
+  position: {x: -1128.0001, y: 1096}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 9015713534650589328}
+  children:
+  - {fileID: 5080967530066840042}
+  - {fileID: -8349116416395804376}
+  - {fileID: 1888041042707310285}
+--- !u!114 &959991221442661425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c3e2e51e00424c9ddd173269202ae, type: 3}
+  m_Name: IsThreatened
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 00599ee759c482c479080afe8db7f8d7
+  position: {x: -1277.6002, y: 1497.6}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 5080967530066840042}
+  actionName: Checking For Safety
+--- !u!114 &1530978912012113065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0cc057a53d9948bd2b40609d6a792, type: 3}
+  m_Name: HasCaughtScent
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d9e107c8d9e49ee49bafb3a327addbfd
+  position: {x: -669.6, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 3767434615937660475}
+  actionName: Smelling For Fox Scent
+--- !u!114 &1593348835266628330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9b878904d66227049be5b701e9fe7d5f
+  position: {x: 4047.2002, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 539835470640788255}
+  children:
+  - {fileID: -7199793011285066007}
+  - {fileID: -4793202321313400446}
+  - {fileID: -2559628783103513650}
+  - {fileID: 4655378903674177027}
+  - {fileID: -9149499633711526622}
+--- !u!114 &1617551126887753654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd93201d3b30b3948939e9d0b425202e, type: 3}
+  m_Name: ChaseTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3fa3d971104b6a942856634fb9e55eba
+  position: {x: 4178.4, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Moving Towards Rabbit
+  speed: 8
+  stoppingDistance: 1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 3
+--- !u!114 &1761464481740165529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9aa254ca40b2f97458c6cf1e858f750e
+  position: {x: -208.79993, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 3767434615937660475}
+  actionName: Moving Away From Fox Scent
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &1785237012694586293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3763ebe0c96ed004bb6dd3feb548b02a
+  position: {x: -1790.6133, y: 1351.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Moving Away From Fox Sounds
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &1835285062983284794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: de99fa30d41ab10498644fcaa850720c
+  position: {x: -4516.9272, y: 1491.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8579775665014937713}
+  children:
+  - {fileID: 4357343428337588521}
+  - {fileID: -2578802947298878400}
+--- !u!114 &1888041042707310285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12084133a65ae444985fdac62c476c23, type: 3}
+  m_Name: Sleep
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 76995d8eecff40f4fb7436c7a1376628
+  position: {x: -967.20026, y: 1351.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 923611151636280921}
+  actionName: Sleeping
+  restAmount: 20
+  sleepParticlesPrefab: {fileID: 3882481950571142260, guid: 18ea67fdfc803b54f9b4b874523f9a77, type: 3}
+--- !u!114 &2051733680391592881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62e10bd44df5804e9603336d544b1e0, type: 3}
+  m_Name: EatFood
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: efa57600e10cda742ac77f6333db5e1d
+  position: {x: 1108.8, y: 1741.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Eating
+  eatingParticlePrefab: {fileID: 5870310450217338775, guid: cc9c642a203f94f4b89c1b4ae8657023, type: 3}
+  disapearPrefab: {fileID: 4148061759017331445, guid: 697710540845bdb45b204b093f1920fd, type: 3}
+  duration: 1
+--- !u!114 &2433293157838727821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 74f03576e28e46746ade1f7b348fe020
+  position: {x: -4170.527, y: 1491.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8579775665014937713}
+  children:
+  - {fileID: 6597703353896374380}
+  - {fileID: -9155519224224974206}
+--- !u!114 &2491936939425334173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4479ac5e03a4e542b2f05065e010ad3, type: 3}
+  m_Name: GetClosestLastKnownPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6d99ff45de22f354d94961e380cee169
+  position: {x: 2564.0002, y: 2129.1199}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 8920563554934294362}
+  actionName: Searching For Mates
+  targetObjects: 1
+--- !u!114 &2840178101109922839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4489e3e257543504c8fc9f891246af6c, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 70c91d583c13c3049ac3e5e0543b66ee
+  position: {x: 1766.3997, y: 1741.5999}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  actionName: Moving Towards Rabbit Sounds
+  speed: 1
+  famishedSpeed: 0.5
+  stoppingDistance: 0.1
+  updateRotation: 1
+  acceleration: 40
+  tolerance: 2.5
+--- !u!114 &3542255093206852638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38c519c86f598f4097d9b7c9583746a, type: 3}
+  m_Name: HasHeardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8af91836a155b454595af023df8ffa84
+  position: {x: -3301.6006, y: 1192.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -5790638848194029032}
+  actionName: Listening For Fox Sounds
+--- !u!114 &3544965721437088462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829c9831d7c0e4346baf269693ae1ca8, type: 3}
+  m_Name: Resting
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cf2b7fb3f48c5c84eae3d4deab50d2eb
+  position: {x: -3859.3271, y: 1215.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -1183158378486064883}
+  actionName: Out Of Stamina
+  duration: 2
+--- !u!114 &3767434615937660475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6c201ba5b3721d54e9bf2ebce51a8473
+  position: {x: -358.3999, y: 1020}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6861180021708770474}
+  children:
+  - {fileID: 1530978912012113065}
+  - {fileID: -8906817197243664505}
+  - {fileID: 6579792638226781231}
+  - {fileID: 1761464481740165529}
+  - {fileID: -1773786281747017948}
+--- !u!114 &3894265653439013737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 774673f0863ea584fba9b63b9ed3f0ec
+  position: {x: 3896.8003, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 539835470640788255}
+  actionName: Moving Towards Rabbit Sounds
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &4295926468785379716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cee4add1510338a4a992c6c927e8cd34
+  position: {x: 4028.0002, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Wander While Looking For Rabbit
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &4357343428337588521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08432999659ec6b4fbdb78b080153e3e, type: 3}
+  m_Name: IsHiding
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d17aef794ba2298418ad0e7dd1240274
+  position: {x: -4592.127, y: 1736.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1835285062983284794}
+  actionName: Hiding
+--- !u!114 &4655378903674177027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8bdf66f635ffd498275f3ad85a6bae, type: 3}
+  m_Name: Reproduce
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ef21eae1b923e7d4e9c04f99f8405668
+  position: {x: 4196.8, y: 2371.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 1593348835266628330}
+  actionName: Reproducing
+  duration: 2
+--- !u!114 &4684593224853784835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2dd2b9ef7ff99f744bdf3dbbf94caf8c
+  position: {x: 4478.4, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Waiting
+  duration: 1
+--- !u!114 &4702597235650893165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969a1f2f2ad31f04fb557ddedd2ce445, type: 3}
+  m_Name: GetWanderPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f4e1bfaaa346c8d48acd51f853fef4c0
+  position: {x: 3727.2004, y: 1650.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6586342607740802894}
+  actionName: Wander While Looking For Rabbit
+  wanderRadius: 25
+  walkableGround:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &4751897489887947517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41acb5ed0498547b6f7bfa506f70d7, type: 3}
+  m_Name: CheckSoundType
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8b17ed3955d95854db2386698b188082
+  position: {x: 3596.8003, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 539835470640788255}
+  actionName: Listening For Nearby Rabbits
+  soundType: 1
+--- !u!114 &4883046339584686685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc02fbbc0185f8f40ba2275f18b0d476, type: 3}
+  m_Name: CanSeeTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3b8abbbba9e189d408af25f63ec8ac3a
+  position: {x: 331.20004, y: 1743.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Looking For Food
+  targetObjects: 2
+--- !u!114 &5080967530066840042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e658b1bd308bc5c429f5a9b404a04943, type: 3}
+  m_Name: Inverter
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3b33e67effd5a244f9aa27cb2a5b6bc1
+  position: {x: -1277.6002, y: 1351.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 5080967530066840042}
+  child: {fileID: 959991221442661425}
+--- !u!114 &5463830588994624490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f18d0527ebbc642aa48f85ab0eb3bc, type: 3}
+  m_Name: MoveTowardSoundArea
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 93854cc43c204994198d1895383a4971
+  position: {x: -2816, y: 1793.6}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8086108164168832158}
+  actionName: Listening For Rabbit Sounds
+  soundType: 5
+  moveSpeed: 0
+--- !u!114 &5866893296974367531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38c519c86f598f4097d9b7c9583746a, type: 3}
+  m_Name: HasHeardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 06110253fb1d21942a73c676c1ff5fcd
+  position: {x: -2407.413, y: 1352}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Listening For Nearby Foxes
+--- !u!114 &5959488564068620203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6d295e8b2f6eb88489a515b49842e0c3
+  position: {x: -1640.2133, y: 1351.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Waiting
+  duration: 1
+--- !u!114 &6352540280826976169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc02fbbc0185f8f40ba2275f18b0d476, type: 3}
+  m_Name: CanSeeTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d8e91cb1e67e4ab4c85cee8915b8859b
+  position: {x: 1736.7999, y: 2097.92}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 795594451887897243}
+  actionName: Looking For Food
+  targetObjects: 2
+--- !u!114 &6530131062375863267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: de0c1a68e3569f9419d65b27f95571fd
+  position: {x: 658.4, y: 1742.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -172682917383960589}
+  actionName: Looking For Food
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
+--- !u!114 &6579792638226781231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d049ace54f7c50489363859e9254c9d, type: 3}
+  m_Name: MoveAwayFromTrail
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 78a1ef3012db0a6409a778f780e5b456
+  position: {x: -361.59998, y: 1313.6001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 3767434615937660475}
+  actionName: Smelling For Fox Scent
+  searchRange: 10
+  walkableGroundLayers:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &6586342607740802894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c86ca959c196067448ecc92c9e84481f
+  position: {x: 4103.1997, y: 1328.3198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -2777441192433969452}
+  children:
+  - {fileID: 4702597235650893165}
+  - {fileID: -4493539631558232283}
+  - {fileID: 4295926468785379716}
+  - {fileID: 1617551126887753654}
+  - {fileID: -6875610586361450986}
+  - {fileID: 4684593224853784835}
+--- !u!114 &6597703353896374380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261d79dffff0e494788ece8e7b86977c, type: 3}
+  m_Name: CanAttack
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 35509bbd98f4dea439cfccdbbc51b7ec
+  position: {x: -4245.727, y: 1736.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 2433293157838727821}
+  actionName: Fleeing From Foxes
+--- !u!114 &6629153806224334586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c147d123e4a945b688eddc64e3ea5, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8aff493a384750c48a13286308d1b2d5
+  position: {x: 0, y: 0}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6629153806224334586}
+  child: {fileID: -3935347339971184655}
+--- !u!114 &6771351751632236869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38c519c86f598f4097d9b7c9583746a, type: 3}
+  m_Name: HasHeardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0b25d68389ee899439f65fcdbcbdf57a
+  position: {x: 1315.2001, y: 1741.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  actionName: Listen For Rabbit Sounds
+--- !u!114 &6785761086350343114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 81390d95bfc916c429d8f177c079665c
+  position: {x: -1677.6002, y: 574.2151}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3935347339971184655}
+  children:
+  - {fileID: 8015334068935041010}
+  - {fileID: -9058329265184386305}
+  - {fileID: 9015713534650589328}
+--- !u!114 &6826179649316808983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c3e2e51e00424c9ddd173269202ae, type: 3}
+  m_Name: IsThreatened
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0dc2952ea0c05af409c0442e17240353
+  position: {x: -5023.3267, y: 1491.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -6187694408679326661}
+  actionName: Feels Threatened
+--- !u!114 &6861180021708770474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 636abdb42479b004cb279eb4199d1733
+  position: {x: 3.2000732, y: 772}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3935347339971184655}
+  children:
+  - {fileID: 3767434615937660475}
+  - {fileID: -8137063138978522133}
+--- !u!114 &7055456274819282531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969a1f2f2ad31f04fb557ddedd2ce445, type: 3}
+  m_Name: GetWanderPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5214c856049a5ec4eadf27db69ba01dc
+  position: {x: 4631.9995, y: 725.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4723567522821905431}
+  actionName: Wandering
+  wanderRadius: 20
+  walkableGround:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &7586900404525314533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 558db9c746d687a4abb35a45bf818bd4
+  position: {x: 3429.6, y: 881.11975}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3809609978274210792}
+  children:
+  - {fileID: -3189945628060481131}
+  - {fileID: -3306305698972230124}
+  - {fileID: -2777441192433969452}
+--- !u!114 &7939182895820036698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f37ff01c7fa3449ae56ddb49321e86, type: 3}
+  m_Name: IsHungry
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 7ac402bdd07b3c7419d2a9103c438e70
+  position: {x: 1108.8, y: 1319.5198}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4045406984981708317}
+  actionName: Hungry
+--- !u!114 &8015334068935041010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05646ce5e7015f44bb5d9b52a6578f79, type: 3}
+  m_Name: CompareTimeOfDay
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 56608408a641323418cf594df8c411e7
+  position: {x: -1828.7999, y: 860.39996}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6785761086350343114}
+  actionName: 
+  timeOfDay: 1
+--- !u!114 &8353273721985350056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38c519c86f598f4097d9b7c9583746a, type: 3}
+  m_Name: HasHeardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 93522434e2ff44646b42b376350f7560
+  position: {x: 3446.4004, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 539835470640788255}
+  actionName: Listening For Nearby Rabbits
+--- !u!114 &8527323073964286469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5979aa401296f2041ac104863e6cacb3, type: 3}
+  m_Name: MoveTowardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 44d76ec4b32591b46b8fa5f6ff28c70c
+  position: {x: 1616.0001, y: 1743.2001}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -9165998830354054859}
+  actionName: Listen For Rabbit Sounds
+  soundType: 4
+  moveSpeed: 0
+--- !u!114 &8579775665014937713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c2ad9e1ebf2cc764ab6fc5d5e73daa64
+  position: {x: -4344.127, y: 1264}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -8571536108221449702}
+  children:
+  - {fileID: 1835285062983284794}
+  - {fileID: 2433293157838727821}
+--- !u!114 &8920563554934294362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e2cd6651db61f654aad518131ea7c6c5
+  position: {x: 2932.8, y: 1913.9197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -1522045010138278520}
+  children:
+  - {fileID: 2491936939425334173}
+  - {fileID: -9214697650168738845}
+  - {fileID: -2051019516678672783}
+  - {fileID: -7260508958373707199}
+  - {fileID: -4261400570430592925}
+--- !u!114 &9015713534650589328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460be9e34c566ea45b9e282b1adcb028, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6194850e9c66dfe4d87cd7a9535bf15e
+  position: {x: -1528, y: 860.8}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 6785761086350343114}
+  children:
+  - {fileID: -3006715568939665951}
+  - {fileID: 923611151636280921}
+--- !u!114 &9103500092361271807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f4dc1faa68bcb41b83abd0d7fbabc6, type: 3}
+  m_Name: MoveAwayFromSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 9a75f764ac320df4aae5f43aef0bb8ab
+  position: {x: -2106.6133, y: 1352}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -3006715568939665951}
+  actionName: Moving Away From Fox Sounds
+  soundType: 10
+  moveSpeed: 5
+  searchRadius: 5
+  walkableGround:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &9115537383010244506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5979aa401296f2041ac104863e6cacb3, type: 3}
+  m_Name: MoveTowardSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1109937e2bd49fe4c94922871631ee56
+  position: {x: 3746.4004, y: 2130.7197}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: 539835470640788255}
+  actionName: Moving Towards Rabbit Sounds
+  soundType: 0
+  moveSpeed: 0
+--- !u!114 &9142557858991041903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7aa4ca78d5ef3e4ab9364916ae87c32, type: 3}
+  m_Name: EmitSound
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0f7108d2324c5644c82fef9127b90ce7
+  position: {x: 4478.3994, y: 725.2}
+  blackboard:
+    agent: {fileID: 0}
+    moveToPosition: {x: 0, y: 0, z: 0}
+    target: {fileID: 0}
+    health: 0
+    reproductionPartner: {fileID: 0}
+    hidingZone: {fileID: 0}
+    trailToFollow: {fileID: 0}
+  description: 
+  drawGizmos: 0
+  pauseOnNodeEvent: 0
+  pauseEventType: 0
+  parentNode: {fileID: -4723567522821905431}
+  actionName: Wandering
+  useTransformLocation: 1
+  location: {x: 0, y: 0, z: 0}
+  soundType: 1
+  volume: 2
